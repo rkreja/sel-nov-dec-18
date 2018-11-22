@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test Suite">
+  <test name="test set for chrome browser" >
+	<packages>
+		<package name="com.automationpractice.*"></package>
+	</packages>
+  </test>
+ 
+</suite>

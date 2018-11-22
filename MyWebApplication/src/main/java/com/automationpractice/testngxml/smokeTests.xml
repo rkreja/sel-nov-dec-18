@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test Suite">
+  <test name="High priority test sets" >
+    <classes>
+       <class name="com.automationpractice.testng.TestngAnnotationsDemo">
+              	<methods>
+              		<include name="mouseOverByActions"></include>
+              	</methods>	
+       </class>
+       
+        <class name="com.automationpractice.testng.TestNGDemo">
+              	<methods>
+              		<include name="loginWithNormalUser"></include>
+              		<include name="loginWithAdminUser"></include>
+              	</methods>	
+       </class>
+    </classes>
+  </test>
+ 
+</suite>

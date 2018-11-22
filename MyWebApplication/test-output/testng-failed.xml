@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]">
+  <test thread-count="5" name="test set for chrome browser(failed)">
+    <classes>
+      <class name="com.automationpractice.search.SearchTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+          <include name="product_image_view_search_003"/>
+        </methods>
+      </class> <!-- com.automationpractice.search.SearchTests -->
+      <class name="com.automationpractice.login.LoginTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+          <include name="login_with_vaid_userid_and_password"/>
+        </methods>
+      </class> <!-- com.automationpractice.login.LoginTests -->
+      <class name="com.automationpractice.testng.TestngAnnotationsDemo">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+          <include name="mouseOverByActions"/>
+        </methods>
+      </class> <!-- com.automationpractice.testng.TestngAnnotationsDemo -->
+      <class name="com.automationpractice.misc.ActionsDemo">
+        <methods>
+          <include name="keyPressByActions"/>
+        </methods>
+      </class> <!-- com.automationpractice.misc.ActionsDemo -->
+      <class name="com.automationpractice.misc.AssertDemo">
+        <methods>
+          <include name="testOne"/>
+        </methods>
+      </class> <!-- com.automationpractice.misc.AssertDemo -->
+      <class name="com.automationpractice.misc.DriverSwitchDemo">
+        <methods>
+          <include name="demoAlertPopup"/>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+          <include name="switchToFrameDemo"/>
+        </methods>
+      </class> <!-- com.automationpractice.misc.DriverSwitchDemo -->
+      <class name="com.automationpractice.other.OtherTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Send_message_using_contact_us_form_other_001"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.automationpractice.other.OtherTests -->
+      <class name="com.automationpractice.misc.rkreja">
+        <methods>
+          <include name="implicitDemo"/>
+        </methods>
+      </class> <!-- com.automationpractice.misc.rkreja -->
+    </classes>
+  </test> <!-- test set for chrome browser(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Login Test Suite">
+  <test name="test with chrome browser" >
+    <classes>
+       <class name="com.automationpractice.testng.TestngAnnotationsDemo" />
+       <class name="com.automationpractice.testng.TestNGDemo" />
+    </classes>
+  </test>
+
+</suite>
