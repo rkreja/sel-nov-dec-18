@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameter demo suite]">
+  <test thread-count="5" name="tests with parameters(failed)">
+    <parameter name="password" value="abc1234"/>
+    <parameter name="username" value="john"/>
+    <classes>
+      <class name="com.automationpractice.misc.TestNGParameterDemo">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.automationpractice.misc.TestNGParameterDemo -->
+    </classes>
+  </test> <!-- tests with parameters(failed) -->
+</suite> <!-- Failed suite [Parameter demo suite] -->
