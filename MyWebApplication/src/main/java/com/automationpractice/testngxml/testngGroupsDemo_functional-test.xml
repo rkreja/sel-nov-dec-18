@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="Functional test suite">
+<parameter name="browser" value="chrome"></parameter>
+  <test name="test with chrome browser" >
+  <groups>
+  <run>
+  <include name="funtional-test"></include>
+  </run>
+  </groups>
+  <packages>
+  <package name="com.automationpractice.*"></package>
+  </packages>
+  
+  </test>
+
+</suite>

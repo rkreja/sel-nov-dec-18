@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Parameter demo suite">
+  <test name="tests with parameters" >
+  	<parameter name="username" value="john"/>
+  	<parameter name="password" value="abc1234"/>
+  	
+  	<parameter name="income" value="95000"/>
+  	<parameter name="creditScore" value="675"/>
+  	<parameter name="interestRate" value="4.15"/>
+  	<parameter name="houseValue" value="320000"/>
+  	
+     <classes>    	
+       <class name="com.automationpractice.misc.TestNGParameterDemo" />
+    </classes>
+    
+  </test>
+
+</suite>

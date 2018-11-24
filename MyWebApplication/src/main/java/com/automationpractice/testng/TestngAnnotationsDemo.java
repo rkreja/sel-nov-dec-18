@@ -26,6 +26,16 @@ public class TestngAnnotationsDemo extends TestBase{
 	public void t4() {
 		
 	}
+	@Test
+	public void browserTestWithParameter() {
+	
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+	}
 	
 	@Test
 	public void mouseOverByActions() {

@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationpractice.misc.DriverSwitchDemo">
+      <class name="com.automationpractice.misc.TestNGParameterDemo">
         <methods>
-          <include name="switchToWindowDemo"/>
+          <include name="closeBrowser"/>
           <include name="init"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.automationpractice.misc.DriverSwitchDemo -->
+      </class> <!-- com.automationpractice.misc.TestNGParameterDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

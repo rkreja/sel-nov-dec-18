@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test suite for multiple browser">
+<parameter name="browser" value="ie"></parameter>
+  <test name="chrome tests" >  	 	
+     <classes>    	
+       <class name="com.automationpractice.testng.TestngAnnotationsDemo">
+       <methods>
+       <include name="browserTestWithParameter"></include>
+       </methods>
+       </class>
+    </classes>
+    
+  </test>
+
+</suite>
