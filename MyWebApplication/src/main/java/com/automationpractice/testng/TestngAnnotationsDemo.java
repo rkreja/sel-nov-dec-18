@@ -12,21 +12,21 @@ public class TestngAnnotationsDemo extends TestBase{
 
 	@Test
 	public void t1() {
-		
+		driver.get("http://www.bbc.com");
 	}
 	@Test
 	public void t2() {
-			
+		driver.get("http://www.cnn.com");	
 	}
 	@Test
 	public void t3() {
-		
+		driver.get("http://www.twitter.com");
 	}
 	@Test
 	public void t4() {
-		
+		driver.get("http://www.facebook.com");
 	}
-	@Test
+	@Test(enabled=false)
 	public void browserTestWithParameter() {
 	
 		try {
@@ -37,7 +37,7 @@ public class TestngAnnotationsDemo extends TestBase{
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void mouseOverByActions() {
 
 	driver.get("https://timeandtraining.net/seleniumdemo/selenium.html");

@@ -21,7 +21,6 @@ public class ForLoopDemo extends TestBase{
 			e.click();		
 		}
 		
-		
 		Thread.sleep(3000);
 	}
 	

@@ -16,6 +16,7 @@ public class TestNGParameterDemo extends TestBase{
 		System.out.println("Login with password: " + password);
 	}
 
+
 	
 	@Test(enabled=false)
 	@Parameters({"income","creditScore","interestRate","houseValue"})

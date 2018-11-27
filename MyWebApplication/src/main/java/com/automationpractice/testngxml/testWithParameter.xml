@@ -3,7 +3,7 @@
 <suite name="Parameter demo suite">
   <test name="tests with parameters" >
   	<parameter name="username" value="john"/>
-  	<parameter name="password" value="abc1234"/>
+  	<parameter name="password" value="abc1234"/>  	
   	
   	<parameter name="income" value="95000"/>
   	<parameter name="creditScore" value="675"/>

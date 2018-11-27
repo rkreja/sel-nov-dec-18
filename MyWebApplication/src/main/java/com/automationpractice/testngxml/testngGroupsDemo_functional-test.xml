@@ -1,15 +1,71 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
-<suite name="Functional test suite">
+<suite name="Functional test suite" parallel="tests" thread-count="2">
 <parameter name="browser" value="chrome"></parameter>
-  <test name="test with chrome browser" >
-  <groups>
-  <run>
-  <include name="funtional-test"></include>
-  </run>
-  </groups>
-  <packages>
-  <package name="com.automationpractice.*"></package>
-  </packages>
+
+
+  <test name="all functional tests" >
+	  <groups>
+	  <run>
+	  <include name="funtional-test"></include>
+	  </run>
+	  </groups>
+	  <packages>
+	  <package name="com.automationpractice.*"></package>
+	  </packages>
+  
+  </test>
+  
+  
+  
+   <test name="all integration tests" >
+		  <groups>
+		  <run>
+		  <include name="integration-test"></include>
+		  </run>
+		  </groups>
+		  <packages>
+		  <package name="com.automationpractice.*"></package>
+		  </packages>
+  
+  </test>
+  
+  
+    
+   <test name="all backend tests" >
+		  <groups>
+		  <run>
+		  <include name="integration-test"></include>
+		  </run>
+		  </groups>
+		  <packages>
+		  <package name="com.automationpractice.*"></package>
+		  </packages>
+  
+  </test>
+  
+  
+     <test name="all smoke tests" >
+		  <groups>
+		  <run>
+		  <include name="integration-test"></include>
+		  </run>
+		  </groups>
+		  <packages>
+		  <package name="com.automationpractice.*"></package>
+		  </packages>
+  
+  </test>
+  
+  
+     <test name="uat tests" >
+		  <groups>
+		  <run>
+		  <include name="integration-test"></include>
+		  </run>
+		  </groups>
+		  <packages>
+		  <package name="com.automationpractice.*"></package>
+		  </packages>
   
   </test>
 

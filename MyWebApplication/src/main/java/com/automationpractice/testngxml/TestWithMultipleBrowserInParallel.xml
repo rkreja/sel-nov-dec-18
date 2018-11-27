@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test suite for multiple browser" parallel="tests" thread-count="2">
+
+  <test name="tests with internet explorer" >
+  <parameter name="browser" value="internetexplorer"></parameter>  	 	
+     <classes>    	
+      <class name="com.automationpractice.testng.TestngAnnotationsDemo">
+       </class>
+    </classes>    
+  </test>
+  	
+    <test name="tests with chrome" >
+    <parameter name="browser" value="chrome"></parameter>  	 	
+     <classes>    	
+       <class name="com.automationpractice.testng.TestngAnnotationsDemo">
+       </class>
+    </classes>
+    
+  </test>
+
+</suite>

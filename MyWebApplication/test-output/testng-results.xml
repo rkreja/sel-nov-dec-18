@@ -1,47 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="30" total="35" passed="5">
+<testng-results skipped="0" failed="0" ignored="4" total="12" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Integration test suite" duration-ms="55" started-at="2018-11-24T03:12:27Z" finished-at="2018-11-24T03:12:27Z">
+  <suite name="Test suite for multiple browser" duration-ms="37420" started-at="2018-11-27T03:29:58Z" finished-at="2018-11-27T03:30:35Z">
     <groups>
-      <group name="integration-test">
-        <method signature="ClaimTests.claimedByCustomerService()[pri:0, instance:com.automationpractice.testnggroupdemo.ClaimTests@3abbfa04]" name="claimedByCustomerService" class="com.automationpractice.testnggroupdemo.ClaimTests"/>
-        <method signature="ProductPurchaseTests.purchaseSingleItem()[pri:0, instance:com.automationpractice.testnggroupdemo.ProductPurchaseTests@598067a5]" name="purchaseSingleItem" class="com.automationpractice.testnggroupdemo.ProductPurchaseTests"/>
-        <method signature="ProductPurchaseTests.purchaseWithExchange()[pri:0, instance:com.automationpractice.testnggroupdemo.ProductPurchaseTests@598067a5]" name="purchaseWithExchange" class="com.automationpractice.testnggroupdemo.ProductPurchaseTests"/>
-        <method signature="TransactionsTests.ElectronicBankTransactions()[pri:0, instance:com.automationpractice.testnggroupdemo.TransactionsTests@3c0ecd4b]" name="ElectronicBankTransactions" class="com.automationpractice.testnggroupdemo.TransactionsTests"/>
-        <method signature="TransactionsTests.paypalTransactions()[pri:0, instance:com.automationpractice.testnggroupdemo.TransactionsTests@3c0ecd4b]" name="paypalTransactions" class="com.automationpractice.testnggroupdemo.TransactionsTests"/>
-      </group> <!-- integration-test -->
-      <group name="funtional-test">
-        <method signature="ProductPurchaseTests.purchaseSingleItem()[pri:0, instance:com.automationpractice.testnggroupdemo.ProductPurchaseTests@598067a5]" name="purchaseSingleItem" class="com.automationpractice.testnggroupdemo.ProductPurchaseTests"/>
-      </group> <!-- funtional-test -->
     </groups>
-    <test name="test with chrome browser" duration-ms="55" started-at="2018-11-24T03:12:27Z" finished-at="2018-11-24T03:12:27Z">
-      <class name="com.automationpractice.testnggroupdemo.TransactionsTests">
-        <test-method status="PASS" signature="ElectronicBankTransactions()[pri:0, instance:com.automationpractice.testnggroupdemo.TransactionsTests@3c0ecd4b]" name="ElectronicBankTransactions" duration-ms="3" started-at="2018-11-24T03:12:27Z" finished-at="2018-11-24T03:12:27Z">
+    <test name="tests with internet explorer" duration-ms="33750" started-at="2018-11-27T03:29:58Z" finished-at="2018-11-27T03:30:31Z">
+      <class name="com.automationpractice.testng.TestngAnnotationsDemo">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="init" is-config="true" duration-ms="2784" started-at="2018-11-27T03:29:58Z" finished-at="2018-11-27T03:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internetexplorer]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ElectronicBankTransactions -->
-        <test-method status="PASS" signature="paypalTransactions()[pri:0, instance:com.automationpractice.testnggroupdemo.TransactionsTests@3c0ecd4b]" name="paypalTransactions" duration-ms="2" started-at="2018-11-24T03:12:27Z" finished-at="2018-11-24T03:12:27Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="t1()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="t1" duration-ms="8763" started-at="2018-11-27T03:30:00Z" finished-at="2018-11-27T03:30:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paypalTransactions -->
-      </class> <!-- com.automationpractice.testnggroupdemo.TransactionsTests -->
-      <class name="com.automationpractice.testnggroupdemo.ProductPurchaseTests">
-        <test-method status="PASS" signature="purchaseSingleItem()[pri:0, instance:com.automationpractice.testnggroupdemo.ProductPurchaseTests@598067a5]" name="purchaseSingleItem" duration-ms="3" started-at="2018-11-24T03:12:27Z" finished-at="2018-11-24T03:12:27Z">
+        </test-method> <!-- t1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="closeBrowser" is-config="true" duration-ms="746" started-at="2018-11-27T03:30:09Z" finished-at="2018-11-27T03:30:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- purchaseSingleItem -->
-        <test-method status="PASS" signature="purchaseWithExchange()[pri:0, instance:com.automationpractice.testnggroupdemo.ProductPurchaseTests@598067a5]" name="purchaseWithExchange" duration-ms="2" started-at="2018-11-24T03:12:27Z" finished-at="2018-11-24T03:12:27Z">
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="init" is-config="true" duration-ms="1817" started-at="2018-11-27T03:30:10Z" finished-at="2018-11-27T03:30:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internetexplorer]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- purchaseWithExchange -->
-      </class> <!-- com.automationpractice.testnggroupdemo.ProductPurchaseTests -->
-      <class name="com.automationpractice.testnggroupdemo.ClaimTests">
-        <test-method status="PASS" signature="claimedByCustomerService()[pri:0, instance:com.automationpractice.testnggroupdemo.ClaimTests@3abbfa04]" name="claimedByCustomerService" duration-ms="10" started-at="2018-11-24T03:12:27Z" finished-at="2018-11-24T03:12:27Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="t2()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="t2" duration-ms="10799" started-at="2018-11-27T03:30:12Z" finished-at="2018-11-27T03:30:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- claimedByCustomerService -->
-      </class> <!-- com.automationpractice.testnggroupdemo.ClaimTests -->
-    </test> <!-- test with chrome browser -->
-  </suite> <!-- Integration test suite -->
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="closeBrowser" is-config="true" duration-ms="635" started-at="2018-11-27T03:30:23Z" finished-at="2018-11-27T03:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="init" is-config="true" duration-ms="1598" started-at="2018-11-27T03:30:23Z" finished-at="2018-11-27T03:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internetexplorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="t3()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="t3" duration-ms="1121" started-at="2018-11-27T03:30:25Z" finished-at="2018-11-27T03:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="closeBrowser" is-config="true" duration-ms="634" started-at="2018-11-27T03:30:26Z" finished-at="2018-11-27T03:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="init" is-config="true" duration-ms="1703" started-at="2018-11-27T03:30:27Z" finished-at="2018-11-27T03:30:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internetexplorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="t4()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="t4" duration-ms="2477" started-at="2018-11-27T03:30:28Z" finished-at="2018-11-27T03:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t4 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@6a41eaa2]" name="closeBrowser" is-config="true" duration-ms="634" started-at="2018-11-27T03:30:31Z" finished-at="2018-11-27T03:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automationpractice.testng.TestngAnnotationsDemo -->
+    </test> <!-- tests with internet explorer -->
+    <test name="tests with chrome" duration-ms="37420" started-at="2018-11-27T03:29:58Z" finished-at="2018-11-27T03:30:35Z">
+      <class name="com.automationpractice.testng.TestngAnnotationsDemo">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="init" is-config="true" duration-ms="4358" started-at="2018-11-27T03:29:58Z" finished-at="2018-11-27T03:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="t1()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="t1" duration-ms="6372" started-at="2018-11-27T03:30:02Z" finished-at="2018-11-27T03:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="closeBrowser" is-config="true" duration-ms="1335" started-at="2018-11-27T03:30:08Z" finished-at="2018-11-27T03:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="init" is-config="true" duration-ms="3546" started-at="2018-11-27T03:30:10Z" finished-at="2018-11-27T03:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="t2()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="t2" duration-ms="5799" started-at="2018-11-27T03:30:13Z" finished-at="2018-11-27T03:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="closeBrowser" is-config="true" duration-ms="1317" started-at="2018-11-27T03:30:19Z" finished-at="2018-11-27T03:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="init" is-config="true" duration-ms="3639" started-at="2018-11-27T03:30:20Z" finished-at="2018-11-27T03:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="t3()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="t3" duration-ms="950" started-at="2018-11-27T03:30:24Z" finished-at="2018-11-27T03:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="closeBrowser" is-config="true" duration-ms="3452" started-at="2018-11-27T03:30:25Z" finished-at="2018-11-27T03:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="init" is-config="true" duration-ms="3532" started-at="2018-11-27T03:30:28Z" finished-at="2018-11-27T03:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="t4()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="t4" duration-ms="1928" started-at="2018-11-27T03:30:32Z" finished-at="2018-11-27T03:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t4 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automationpractice.testng.TestngAnnotationsDemo@59ec2012]" name="closeBrowser" is-config="true" duration-ms="1152" started-at="2018-11-27T03:30:34Z" finished-at="2018-11-27T03:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automationpractice.testng.TestngAnnotationsDemo -->
+    </test> <!-- tests with chrome -->
+  </suite> <!-- Test suite for multiple browser -->
 </testng-results>
