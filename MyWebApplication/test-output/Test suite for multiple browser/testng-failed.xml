@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Test suite for multiple browser]">
-  <parameter name="browser" value="ie"/>
-  <test thread-count="5" name="chrome tests(failed)">
+  <test thread-count="5" name="tests with internet explorer(failed)">
+    <parameter name="browser" value="internetexplorer"/>
     <classes>
       <class name="com.automationpractice.testng.TestngAnnotationsDemo">
         <methods>
           <include name="closeBrowser"/>
           <include name="init"/>
-          <include name="browserTestWithParameter"/>
+          <include name="mouseOverByActions"/>
         </methods>
       </class> <!-- com.automationpractice.testng.TestngAnnotationsDemo -->
     </classes>
-  </test> <!-- chrome tests(failed) -->
+  </test> <!-- tests with internet explorer(failed) -->
 </suite> <!-- Failed suite [Test suite for multiple browser] -->
