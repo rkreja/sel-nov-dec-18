@@ -21,9 +21,14 @@ public class TestBase {
 	@BeforeMethod
 	@Parameters({"browser"})
 	public void init(@Optional("chrome") String browser) {
+		String os=System.getProperty("os.name");
 		
 		if (browser.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "lib/chromedriver-windows-32bit.exe");
+			if(os.contains("linux")) {
+				System.setProperty("webdriver.chrome.driver", "lib/chromedriver-linux-32bit");
+			}else {
+				System.setProperty("webdriver.chrome.driver", "lib\\chromedriver-windows-64bit.exe");
+			}
 			driver = new ChromeDriver();
 		}else if(browser.equals("internetexplorer")) {
 			System.setProperty("webdriver.ie.driver", "lib/internetexplorerdriver-windows-32bit.exe");
