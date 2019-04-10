@@ -24,7 +24,7 @@ public class TestBase {
 		String os=System.getProperty("os.name");
 		
 		if (browser.equals("chrome")) {
-			if(os.contains("linux")) {
+			if(!os.contains("Windows")) {
 				System.setProperty("webdriver.chrome.driver", "lib/chromedriver-linux-32bit");
 			}else {
 				System.setProperty("webdriver.chrome.driver", "lib\\chromedriver-windows-64bit.exe");
