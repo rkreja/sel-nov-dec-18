@@ -27,7 +27,7 @@ public class TestBase {
 			if(!os.contains("Windows")) {
 				System.setProperty("webdriver.chrome.driver", "lib/chromedriver-linux-32bit");
 			}else {
-				System.setProperty("webdriver.chrome.driver", "lib\\chromedriver-windows-64bit.exe");
+				System.setProperty("webdriver.chrome.driver", "lib\\chromedriver-windows-32bit.exe");
 			}
 			driver = new ChromeDriver();
 		}else if(browser.equals("internetexplorer")) {
